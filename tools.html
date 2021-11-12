@@ -10,26 +10,49 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
         <style>
+            @media screen and (min-width:850px) {
 
-            .container {
-                margin-top: 5%;                
+                .container {
+                    margin-top: 5%;                
+                }
+
+                .card-img-top {
+                    width: 100%;
+                    height: 15vw;
+                    object-fit: cover;
+                    
+                }
+
+                .card {
+                    height: calc(100% - 15px);
+                    margin-bottom: 15px;
+                }
+            }
+
+            @media screen and (max-width:849px) {
+
+                .container {
+                    margin-top: 8%;                
+                }
+
+                .card-img-top {
+                    width: 2rem;
+                    height:30vw;
+                    object-fit: cover;
+                    
+                }
+
+                .card {
+                    height: calc(100% - 15px);
+                    margin-bottom: 15px;
+                }
+
             }
 
             .mb-0 {
-                padding-bottom: 5%;
-            }
+                    padding-bottom: 5%;
+                }
 
-            .card-img-top {
-                width: 100%;
-                height: 15vw;
-                object-fit: cover;
-                
-            }
-
-            .card {
-                height: calc(100% - 15px);
-                margin-bottom: 15px;
-            }
 
         </style>
 
